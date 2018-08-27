@@ -1,0 +1,164 @@
+body{
+/*   background:#DECAFD; */
+  color:white;
+  font-family:assistant;
+
+}
+input{
+  width:60%;
+  font-family:assistant;
+  font-size:0.8em;
+  color:#7A3FFE;
+  font-weight:600;
+  letter-spacing:1px;
+  border:none;
+}
+#btn{
+  height:20px;
+}
+
+.btn{
+  border-radius:2px;
+  background:#7A3FFE;
+  color:#fff;
+  margin:5px;
+  font-family:assistant;
+  font-size:0.8em;
+  text-transform:uppercase;
+/*   padding:px; */
+  height:70px;
+  outline:none;
+  border:none;
+  transition:all 0.5s linear;
+}
+.btn:hover{
+/*   background:yellow;
+  color:#7A3FFE; */
+  transform:scale(1.1);
+}
+#online:hover{
+  background:yellow;
+  color:#7A3FFE;
+ 
+}
+#offline:hover{
+  background:#FF5252;
+}
+.container{
+/*   background:#ECE3FE; */
+  
+  width:50%;
+  margin:3% auto;
+  margin-bottom:0;
+  box-shadow:-2px 2px 10px 3px #c4b8d3;
+  display:flex;
+/*   flex-wrap:wrap; */
+  justify-content:center;
+  font-size:1.3em;
+  
+}
+
+h1{
+  text-align:center;
+  color:#7A3FFE;
+  font-family:ranchers;
+  letter-spacing:3px;
+/*   height:20px; */
+/*   flex-basis:0px; */
+  margin:0 auto;
+/*   background:black; */
+/*   width:100% */
+}
+.buttons{
+  display:flex;
+  flex-direction:column;
+/*  justify-content:space-around; */
+  padding:5px;
+/*   width:50px; */
+/* background:black; */
+  
+}
+.tv{
+  display:flex;
+  flex-direction:column;
+  position:relative;
+}
+ul{
+  list-style:none;
+  padding:0;
+  
+  margin:5px;
+ 
+}
+ul li{
+  
+  
+  background:#7A3FFE;
+  
+  border:2px solid #ece3fe;
+  padding:15px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+/*   flex-direction:column; */
+/*   margin-right:35px; */
+  border-radius:5px;
+  margin:2px;
+  transition:all 0.5s linear;
+}
+ul li:hover{
+  background:#673AB7;
+/*   color:#fff; */
+  transform:scale(1.01);
+
+}
+a{
+  color:#fff;
+  text-decoration:none;
+  text-transform:capitalize;
+  
+}
+/* .base{
+
+
+  width:100px;
+  height:100px;
+  background:grey;
+-webkit-clip-path: polygon(26% 63%, 76% 63%, 100% 100%, 0% 100%);
+clip-path: polygon(26% 63%, 76% 63%, 100% 100%, 0% 100%);
+  transform:scale(1.5);
+text-align:center;
+  margin:0 auto;
+
+  
+} */
+
+@media (max-width:900px){
+  .container{
+    width:85%;
+    flex-wrap:wrap;
+  }
+  ul{
+    margin:20px
+  }
+  .btn{
+    height:30px;
+/*      flex-shrink:1; */
+  }
+  .buttons{
+    flex-direction:row;
+
+    
+  }
+
+}
+#cplink{
+  color:#7A3FFE;
+}
+h4 i{
+  color:#7A3FFE;
+}
+h4{
+  text-align:center;
+}
